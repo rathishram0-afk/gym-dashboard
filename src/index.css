@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background-color: #F2F8FF;
+    color: #253053;
+    font-family: 'Poppins', Arial, sans-serif;
+  }
+}
+
+/* Custom Scrollbar for tables and drawers */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F2F8FF;
+}
+::-webkit-scrollbar-thumb {
+  background: #C6C6DD;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #636B83;
+}
